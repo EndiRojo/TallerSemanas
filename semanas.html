@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="stylePaginaYo.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class ="header">
+        <a href="#home" class="logo"> Red
+        <span> End</span></a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="index.html"> HOME </a>
+            <a href="semanas.html"> SEMANAS </a>
+            <a href="#services"> SERVICES </a>
+            <a href="#contact"> CONTACT </a>
+        </nav>
+    </header>
+
+    
+
+    <section class="home" id="home">
+
+
+        <div class="home-content">
+            <div class="btn" class="dropdown">
+                <div class="dropdown-btn" onclick="toggleDropdown()">Semanas
+                    <span>&#9660;</span> 
+                </div>
+                <div class="dropdown-content" id="dropdown-content">
+                    <a href="semana1.html">Semana 1</a>
+                    <a href="semana2.html">Semana 2</a>
+                    <a href="semana3.html">Semana 3</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="home-img">
+            <img src="image.jpg" alt="">
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
